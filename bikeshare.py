@@ -32,7 +32,7 @@ def get_filters():
         else:
             break
             
-    # TO DO: get user input for month (all, january, february, ... , june)        
+    # TO DO: get user input for month (all, january, february, march,... , june)        
     while True:
         month = input ("\nPlease enter a specific month to filter - january, february, march, april, may, june or type 'all' for no filter: ").lower()
         if month not in months:
@@ -41,7 +41,7 @@ def get_filters():
         else:
             break
             
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: get user input for day of week (all, monday, tuesday, wednesday, ... sunday)
     while True:
         day = input("\nPlease enter a specific day of the week to filter or type 'all':\n").lower()
         if day not in days:
@@ -98,7 +98,7 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
-    # TO DO: display the most common month
+    # TO DO: display the most common month of the year
     common_month = df['month'].mode()[0]
     print("The most common month is:", common_month)
     
