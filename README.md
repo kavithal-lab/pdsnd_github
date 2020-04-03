@@ -1,15 +1,24 @@
 ### Date created
-Include the date you created this project and README file.
+March 12th 2020
 
 ### Project Title
-Replace the Project Title
+Explore US bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+Using python explore the US bikeshare data
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+washington.csv
+new_york_city.csv
+python-bikeshare-readme.txt
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+IIntrotoPython.org - Accepting user input
+Stackoverflow.org - for errors handling situations
+Pandas.pydata.org - For the user of idxmax function and iloc method.
+
+### Updates
+Refactored code on the commonly used month of the year statistics
 
